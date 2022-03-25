@@ -17,6 +17,10 @@
 		8FF1240427BDB55600E99EB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF123DA27BDB55500E99EB3 /* ContentView.swift */; };
 		8FF1240527BDB55600E99EB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FF123DB27BDB55600E99EB3 /* Assets.xcassets */; };
 		8FF1240627BDB55600E99EB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FF123DB27BDB55600E99EB3 /* Assets.xcassets */; };
+		8FF1241627BDC59D00E99EB3 /* CesaroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF1241527BDC59D00E99EB3 /* CesaroView.swift */; };
+		8FF1241727BDC59D00E99EB3 /* CesaroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF1241527BDC59D00E99EB3 /* CesaroView.swift */; };
+		8FF1241927BDC5FD00E99EB3 /* Cesaro Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF1241827BDC5FD00E99EB3 /* Cesaro Functions.swift */; };
+		8FF1241A27BDC5FD00E99EB3 /* Cesaro Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF1241827BDC5FD00E99EB3 /* Cesaro Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		8FF123F927BDB55600E99EB3 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF123FD27BDB55600E99EB3 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		8FF123FF27BDB55600E99EB3 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		8FF1241527BDC59D00E99EB3 /* CesaroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CesaroView.swift; sourceTree = "<group>"; };
+		8FF1241827BDC5FD00E99EB3 /* Cesaro Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cesaro Functions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				8FF123D927BDB55500E99EB3 /* PHYS_440_Assignment_3_5App.swift */,
+				8FF1241527BDC59D00E99EB3 /* CesaroView.swift */,
 				8FF123DA27BDB55500E99EB3 /* ContentView.swift */,
+				8FF1241827BDC5FD00E99EB3 /* Cesaro Functions.swift */,
 				8FF123DB27BDB55600E99EB3 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -299,8 +307,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FF1241627BDC59D00E99EB3 /* CesaroView.swift in Sources */,
 				8FF1240327BDB55600E99EB3 /* ContentView.swift in Sources */,
 				8FF1240127BDB55600E99EB3 /* PHYS_440_Assignment_3_5App.swift in Sources */,
+				8FF1241927BDC5FD00E99EB3 /* Cesaro Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +318,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FF1241727BDC59D00E99EB3 /* CesaroView.swift in Sources */,
 				8FF1240427BDB55600E99EB3 /* ContentView.swift in Sources */,
 				8FF1240227BDB55600E99EB3 /* PHYS_440_Assignment_3_5App.swift in Sources */,
+				8FF1241A27BDC5FD00E99EB3 /* Cesaro Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
